@@ -1,1 +1,97 @@
 /* write your code here */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(green.jpg);
+    background-repeat: repeat-x;
+}
+li {
+    list-style: none;
+    float: left;
+    padding: 0 30px;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: #edede9;
+    color: #432818;
+    
+}
+.header {
+    font-size: 35px;
+    background-color: #d5bdaf;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 3px solid #006d77;
+}
+.konten {
+    border-bottom: 3px solid #006d77;
+    padding: 100px 80px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.box1 {
+    width: 400px;
+    height: 300px;
+    background-color: #d6ccc2;
+    float: left;
+    position: absolute;
+}
+.box2 {
+    width: 400px;
+    height: 300px;
+    background-color: #f5ebe0;
+    float: left;
+    position: absolute;
+    left: 534px; 
+}
+.box3 {
+    width: 400px;
+    height: 300px;
+    background-color: #e3d5ca;
+    float: left;
+    position: absolute;
+    left: 934px;    
+}
+.footer {
+    width: 1200px;
+    height: 200px;
+    background-color: #d5bdaf;
+    text-align: center;
+    position: absolute;
+    top: 646px;
+}
+.footer h2 {
+    padding-top: 16px;
+}
+.footer p {
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo-footer {
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+}
+.footer ul{
+    margin: auto;  
+}
+.footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 92px 50px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+}
